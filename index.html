@@ -1,38 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <meta charset="utf-8">
-    <link rel="icon" href="C:\Users\LEGION\Desktop\html\the_doshik\main\templates\main\main\иконка.jpeg" >
-    <link rel="stylesheet" href="C:\Users\LEGION\Desktop\html\the_doshik\main\templates\main\main\css\css.css">
-    <title>дом </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan Communities</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-   
-    <h4> <a title="че пялиш" >вы на главной</a> </h4>
-    <h3><a href="#123" title="переход вниз">вниз</a></h3>
-    <ul>
-        <li> <h3><a href="b.html" title="переход на б">б</a></h3> </li>
-        <li> <h3><a href="a.html" title="переход на а">а</a></h3> </li>
-        <li> <h3><a href="hren.html" title="переход в хуево кукуева">переход в хуево кукуева</a></h3> </li>   
-    </ul>
-    <table BORDER="1" VALIGN="middle" ALIGN="center">
-        <thead>
-            <tr VALIGN="middle" ALIGN="center">
-                <td>имя </td>  
-                <td>пароль </td> 
-            </tr>
-        </thead>
-        <tbody>
-            <tr VALIGN="middle" ALIGN="center" >
-                <td>дошик</td> 
-                <td>жопа бобра</td>
-            </tr>
-            <tr>
-                <td>дошик 2.0</td> 
-                <td>жопа бобра 2.0</td>
-            </tr>
-        </tbody>    
-        </table>       
-    <a name="123"></a>
-    </body>
+    <header>
+        <div class="container">
+            <h1>Фандомные сообщества</h1>
+            <p>Присоединяйся к секте!</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="fandoms-grid">
+            <a href="main.html" class="fandom-card">
+                <h3>главная</h3>
+                <p>чтото</p>
+            </a>
+
+
+            <a href="votv.html" class="fandom-card">
+                <h3>вотв</h3>
+                <p>радио ночь я ловлю сигнал</p>
+            </a>
+
+            <a href="touhou.html" class="fandom-card">
+                <h3>тоу хоу</h3>
+                <p>слава сырнику</p>
+            </a>
+
+            <a href="indz.html" class="fandom-card">
+                <h3>мамкины инжинеры</h3>
+                <p>БДСМ с конвеерами,линчеватели экологии</p>
+            </a>
+            <!-- Добавьте остальные фандомы -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Обновления бота: <span id="bot-version">v0.0.1</span></p>
+            <p>Следующий ивент: <span id="next-event">3 сентября - ???</span></p>
+        </div>
+    </footer>
+</body>
 </html>
